@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		924A309D2B0B2B7600E758C5 /* RealmInswiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A309C2B0B2B7600E758C5 /* RealmInswiftuiApp.swift */; };
-		924A309F2B0B2B7600E758C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A309E2B0B2B7600E758C5 /* ContentView.swift */; };
 		924A30A12B0B2B7900E758C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924A30A02B0B2B7900E758C5 /* Assets.xcassets */; };
 		924A30A42B0B2B7900E758C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924A30A32B0B2B7900E758C5 /* Preview Assets.xcassets */; };
+		924A30B02B0B2E1100E758C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A30AF2B0B2E1100E758C5 /* HomeView.swift */; };
+		924A30B22B0B2F1600E758C5 /* EmpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A30B12B0B2F1600E758C5 /* EmpModel.swift */; };
+		9297620B2B0B336D009A035B /* RealmServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297620A2B0B336D009A035B /* RealmServices.swift */; };
+		9297620D2B0B38E5009A035B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297620C2B0B38E5009A035B /* HomeViewModel.swift */; };
+		9297620F2B0B3937009A035B /* AddEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297620E2B0B3937009A035B /* AddEmployee.swift */; };
+		F716C47A945CFEB22F2A7BD0 /* Pods_RealmInswiftui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB8E4A98E678555A11B7EEA /* Pods_RealmInswiftui.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CB8E4A98E678555A11B7EEA /* Pods_RealmInswiftui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmInswiftui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		924A30992B0B2B7600E758C5 /* RealmInswiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmInswiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		924A309C2B0B2B7600E758C5 /* RealmInswiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmInswiftuiApp.swift; sourceTree = "<group>"; };
-		924A309E2B0B2B7600E758C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		924A30A02B0B2B7900E758C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		924A30A32B0B2B7900E758C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		924A30AF2B0B2E1100E758C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		924A30B12B0B2F1600E758C5 /* EmpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpModel.swift; sourceTree = "<group>"; };
+		9297620A2B0B336D009A035B /* RealmServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmServices.swift; sourceTree = "<group>"; };
+		9297620C2B0B38E5009A035B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9297620E2B0B3937009A035B /* AddEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployee.swift; sourceTree = "<group>"; };
+		ACCE9A07688AFD2D9BB14333 /* Pods-RealmInswiftui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmInswiftui.release.xcconfig"; path = "Target Support Files/Pods-RealmInswiftui/Pods-RealmInswiftui.release.xcconfig"; sourceTree = "<group>"; };
+		C033DA420BB74FA8930312C4 /* Pods-RealmInswiftui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmInswiftui.debug.xcconfig"; path = "Target Support Files/Pods-RealmInswiftui/Pods-RealmInswiftui.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F716C47A945CFEB22F2A7BD0 /* Pods_RealmInswiftui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +50,8 @@
 			children = (
 				924A309B2B0B2B7600E758C5 /* RealmInswiftui */,
 				924A309A2B0B2B7600E758C5 /* Products */,
+				DDBBBA3AE0EEAD9954392BD2 /* Pods */,
+				F4610007616CDA2BE20B9327 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +66,11 @@
 		924A309B2B0B2B7600E758C5 /* RealmInswiftui */ = {
 			isa = PBXGroup;
 			children = (
+				924A30AD2B0B2CBE00E758C5 /* Utils */,
+				924A30AB2B0B2CBC00E758C5 /* Model */,
+				924A30AC2B0B2CBD00E758C5 /* ViewModel */,
+				924A30AA2B0B2CB900E758C5 /* View */,
 				924A309C2B0B2B7600E758C5 /* RealmInswiftuiApp.swift */,
-				924A309E2B0B2B7600E758C5 /* ContentView.swift */,
 				924A30A02B0B2B7900E758C5 /* Assets.xcassets */,
 				924A30A22B0B2B7900E758C5 /* Preview Content */,
 			);
@@ -67,6 +85,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		924A30AA2B0B2CB900E758C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				924A30AF2B0B2E1100E758C5 /* HomeView.swift */,
+				9297620E2B0B3937009A035B /* AddEmployee.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		924A30AB2B0B2CBC00E758C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				924A30B12B0B2F1600E758C5 /* EmpModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		924A30AC2B0B2CBD00E758C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9297620A2B0B336D009A035B /* RealmServices.swift */,
+				9297620C2B0B38E5009A035B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		924A30AD2B0B2CBE00E758C5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DDBBBA3AE0EEAD9954392BD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C033DA420BB74FA8930312C4 /* Pods-RealmInswiftui.debug.xcconfig */,
+				ACCE9A07688AFD2D9BB14333 /* Pods-RealmInswiftui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4610007616CDA2BE20B9327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB8E4A98E678555A11B7EEA /* Pods_RealmInswiftui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 924A30A72B0B2B7900E758C5 /* Build configuration list for PBXNativeTarget "RealmInswiftui" */;
 			buildPhases = (
+				14040C7490B21DFFDAD639FA /* [CP] Check Pods Manifest.lock */,
 				924A30952B0B2B7600E758C5 /* Sources */,
 				924A30962B0B2B7600E758C5 /* Frameworks */,
 				924A30972B0B2B7600E758C5 /* Resources */,
+				3514446D6BDA9E7FC8500FA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +202,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14040C7490B21DFFDAD639FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmInswiftui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3514446D6BDA9E7FC8500FA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmInswiftui/Pods-RealmInswiftui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmInswiftui/Pods-RealmInswiftui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmInswiftui/Pods-RealmInswiftui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		924A30952B0B2B7600E758C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924A309F2B0B2B7600E758C5 /* ContentView.swift in Sources */,
+				924A30B02B0B2E1100E758C5 /* HomeView.swift in Sources */,
+				924A30B22B0B2F1600E758C5 /* EmpModel.swift in Sources */,
 				924A309D2B0B2B7600E758C5 /* RealmInswiftuiApp.swift in Sources */,
+				9297620D2B0B38E5009A035B /* HomeViewModel.swift in Sources */,
+				9297620B2B0B336D009A035B /* RealmServices.swift in Sources */,
+				9297620F2B0B3937009A035B /* AddEmployee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +377,7 @@
 		};
 		924A30A82B0B2B7900E758C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C033DA420BB74FA8930312C4 /* Pods-RealmInswiftui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +407,7 @@
 		};
 		924A30A92B0B2B7900E758C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCE9A07688AFD2D9BB14333 /* Pods-RealmInswiftui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +421,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
